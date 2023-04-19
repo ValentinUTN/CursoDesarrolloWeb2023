@@ -1,0 +1,63 @@
+/*Importar fuente de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url();
+*{
+    box-sizing: border-box;
+}
+
+header,ul, ol{/*selector grupal, etiquetas separadas por comas*/
+    background-color: burlywood;
+    color: black;
+}
+
+body{/*selector individual*/
+    font-size: 16px;
+}
+
+header p{/*selector descendente, aplica a la etiqueta dentro de la declarada(p)*/
+    background-color: goldenrod;
+    color: black;
+}
+
+p{
+    font-size: 16px;
+}
+
+a:link{
+    color: black;
+    border: 1px solid;
+    margin: 10px;
+    text-decoration: none;
+    padding: 1px;
+}
+
+
+a:active{
+    color: black;
+}
+
+/*Color del link cuando fue visitado*/
+a:visited{
+    color: black;
+}
+
+/*Color del link cuando pasa el puntero por encima*/
+a:hover{
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+
+div{
+    width: 400px; 
+    height: 400px; 
+    background-color: gray; 
+    margin: 10px; 
+    border:1px solid red; 
+    padding: 10px; 
+    text-transform:capitalize;
+    text-align: center;
+    background-image:url(../imagenes/423e9df79a06e40fd2184a133dffbf83.jpg);
+    background-size: 400px;
+    background-repeat:no-repeat;
+}
